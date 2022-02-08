@@ -43,7 +43,7 @@ $email=$_POST['email'];
 $password=$_POST['password'];
 $cpassword=$_POST['cpassword'];
 
-$query="INSERT INTO  formdata(fname,email,password,cpassword) VALUES('$fname' , '$email' , '$password' , '$cpassword')";   
+$query="INSERT INTO formdata ( fname,email,password,cpassword ) VALUES('$fname' , '$email' , '$password' , '$cpassword')";   
 $run= mysqli_query($conn,$query) or die(mysqli_error($conn));
 if($run){
 	echo "signup successfull";

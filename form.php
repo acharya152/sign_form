@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>SIGN UP HERE!!!</title>
-	<link rel="stylesheet" type="text/css" href="forms.css">
+	<link rel="stylesheet" type="text/css" href="./forms.css">
 </head>
 <body>
 
@@ -19,7 +19,7 @@
 				<input required type="Password" name="password" placeholder="Enter your Password">
 				<label>Confirm-Password</label>
 				<input required type="Password" name="cpassword" placeholder="Re-enter Password">
-				<input required  type="Submit" name="signup" value="SIGN UP">
+				<input required  type="Submit" name="signup" value="SIGN UP" style="background-color: #ffc10d; border: solid #ffc10d;">
 			</form>
 
 		</div>
