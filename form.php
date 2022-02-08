@@ -9,7 +9,7 @@
 <body>
 
 		<div class="firstdiv"> 
-			<form class="formdiv">
+			<form class="formdiv" action="database.php" method="post">
 				<h4>CREATE AN ACCOUNT </h4>
 				<label>Full Name</label>
 				<input required type="text" name="fname" placeholder="Enter your Full Name">
