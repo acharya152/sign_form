@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.firstdiv{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.formdiv{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	border-collapse: none;
+	padding: 25px;
+	margin: 100px;
+	width: 40%;
+
+}
+input{
+	padding: 5px;
+	margin: 5px;
+}
+label{
+	padding: 5px;
+	font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+h4{
+	padding: 5px;
+	margin-top: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Gill Sans Extrabold", sans-serif;
+}
